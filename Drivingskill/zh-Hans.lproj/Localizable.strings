@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  Drivingskill
+
+  Created by Man Tung on 12/14/12.
+  Copyright (c) 2012 Man Tung. All rights reserved.
+*/
+"startbutton"="开始记录";
+"cancelbutton"="取消";
+"donebutton"="完成";
+"lableX"="X轴 来自左右的加速度";
+"lableY"="Y轴 来自前后的加速度";
+"lableZ"="Z轴 来自上下的加速度";
+
+"uploading"="正在提交数据";
+"loadingmessage"="正在提交数据 请稍等片刻:)";
+"finishupload"="完成提交";
+"scorename"="平稳得分";
+
+"descriptionno"="保持手机水平放置";
+"descriptionyes"="一切就绪";
+
+"morebutton"="设置";
+
+"moretitle"="关于";
+
+"scoresbutton"="我的分数";
+"scorestitle"="我的测评记录";
+"plottitle"="加速度图表";
+
+"umUpdateTitle"="新版本来啦";
+"umUpdateCancel"="取消";
+"umUpdateOK"="确认";
+
+"usertermTitle"="Drieva 需要使用您的加速度信息";
+"usertermMessage"="用来分析您的开车习惯";
+"usertermOK"="好的";
+"usertermNotAllow"="不允许";
+
+"restartbuttontitle"="允许使用加速度信息 开始 ";
+
+
+"userterm"="THIS Areement is entered into by You and Drieva Team on the date you express Your consent by Click \"Read & Accept\" above \n1.Drieva is designed to evaluate one's driving skill therefore we need the driving data such as acceleration, these data will be recorded and upload to our server for analysis so that we can give the result, and this is the ONLY reason and ONLY way we use these data, we will keep the data security and will NOT use these data for other use. For your side, please obey the law and local regulations, besides driving skill evaluation.\n2. You agree that any use of the Materials by You or any other person, employee or entity authorized by You (collectively \"You\" or \"Your\") will be bound by the terms of this Agreement. Do not use the Materials if You do not accept this Agreement. Your use of the Materials constitutes Your agreement to all terms herein.\n3.If You are agreeing to be bound by this Agreement on behalf of Your employer or other entity, You represent and warrant that You have full legal authority to bind Your employer or such other entity to this Agreement. If You do not have this authority,you will not allow to use the function of Drieva.\n4.You also agree that you will not use these products for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons,Drieva Team do NOT bear any legal responsibility.";
+"usertermtitle"="使用条款";
+
+"usertermagree"="同意";
+"usertermdontagree"="不同意";
+
+"connectionfailtitle"="网络无法连接";
+"connectionfailmessage"="测评在使用过程中需要网络连接";
+"connectionfailDone"="好的";
+
+"horizontalfailtitle"="请保持手机水平放置";
+
+

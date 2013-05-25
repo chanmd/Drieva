@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Drivingskill
+
+  Created by Man Tung on 12/14/12.
+  Copyright (c) 2012 Man Tung. All rights reserved.
+*/
+"startbutton"="Start";
+"cancelbutton"="Cancel";
+"donebutton"="Done";
+"lableX"="X axis acceleration";
+"lableY"="Y axis acceleration";
+"lableZ"="Z axis acceleration";
+
+"uploading"="Uploading";
+
+"loadingmessage"="Uploading...Please wait for a while:)";
+
+"finishupload"="Done";
+
+"scorename"="Your driving score is";
+
+"descriptionno"="Make phone horizontally";
+"descriptionyes"="Ready";
+
+"morebutton"="Feedback";
+"moretitl"="About";
+
+"scoresbutton"="My Scores";
+"scorestitle"="My record";
+"plottitle"="Acceleration Plot";
+
+"moretitle"="More";
+
+"umUpdateTitle"="New Version Comming";
+"umUpdateCancel"="Cancel";
+"umUpdateOK"="OK";
+
+"usertermTitle"="Drieva Would like to use your acceleration";
+"usertermMessage"="To analysis your driving actions";
+"usertermOK"="OK";
+"usertermNotAllow"="Don't Allow";
+
+"restartbuttontitle"="Allow to use my acceleration and Start";
+
+
+"userterm"="THIS Areement is entered into by You and Drieva Team on the date you express Your consent by Click \"Read & Accept\" above \n1.Drieva is designed to evaluate one's driving skill therefore we need the driving data such as acceleration, these data will be recorded and upload to our server for analysis so that we can give the result, and this is the ONLY reason and ONLY way we use these data, we will keep the data security and will NOT use these data for other use. For your side, please obey the law and local regulations, besides driving skill evaluation.\n2. You agree that any use of the Materials by You or any other person, employee or entity authorized by You (collectively \"You\" or \"Your\") will be bound by the terms of this Agreement. Do not use the Materials if You do not accept this Agreement. Your use of the Materials constitutes Your agreement to all terms herein.\n3.If You are agreeing to be bound by this Agreement on behalf of Your employer or other entity, You represent and warrant that You have full legal authority to bind Your employer or such other entity to this Agreement. If You do not have this authority,you will not allow to use the function of Drieva.\n4.You also agree that you will not use these products for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons,Drieva Team do NOT bear any legal responsibility.";
+"usertermtitle"="Terms & Conditions";
+
+"usertermagree"="Read & Accept";
+"usertermdontagree"="Don't Accept";
+
+"horizontalfailtitle"="Your phone need horizontally";
+
+"connectionfailtitle"="Network Connection Error";
+"connectionfailmessage"="You need to be connected to the internet to use this feature.";
+"connectionfaildone"="Done";
+
+

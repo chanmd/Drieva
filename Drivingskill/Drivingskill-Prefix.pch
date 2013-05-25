@@ -1,0 +1,40 @@
+//
+// Prefix header for all source files of the 'Drivingskill' target in the 'Drivingskill' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+#define UMENG_APPKEY @"4f66f6375270154ffc0000bf"
+
+#define TWITTERFON_FORM_BOUNDARY @"0194784892923"
+#define SERVER_API @"http://driveskill.sinaapp.com/test.php"
+#define API_DOMAIN @"driveskill.sinaapp.com"
+#define API_FORMAT @"php"
+#define NETWORK_TIMEOUT 120.0
+
+#define TIMER_SAVE_FREQUENCY 10
+#define TIMER_PUT_FREQUENCY 10
+
+#define MOTION_DEVICEMOTION_UPDATEINTERVAL 0.2
+#define LOCATION_UPDATEINTERVAL 111
+
+#define Plot_Capacity 100
+#define Plot_lineWidth 1.0f
+#define Plot_LowerLimit -5.0f
+#define Plot_UpperLimit 5.0f
+#define Plot_X 0
+#define Plot_Y 10
+#define Plot_Width 300
+#define Plot_Heigth 100
+
+#define USERTERMALLOW @"usertermallow"
