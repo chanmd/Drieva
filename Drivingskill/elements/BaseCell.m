@@ -38,13 +38,13 @@
         contentlabel = [[UILabel alloc] init];
         [contentlabel setBackgroundColor:[UIColor clearColor]];
         [contentlabel setFrame:CGRectZero];
-        [contentlabel setFont:[UIFont fontWithName:@"Arial" size:16]];
+        [contentlabel setFont:[UIFont fontWithName:FONT_NAME size:16]];
         [self addSubview:contentlabel];
         
         timelabel = [[UILabel alloc] init];
         [timelabel setBackgroundColor:[UIColor clearColor]];
         [timelabel setTextAlignment:UITextAlignmentRight];
-        [timelabel setFont:[UIFont fontWithName:@"Arial" size:12]];
+        [timelabel setFont:[UIFont fontWithName:FONT_NAME size:12]];
         [timelabel setTextColor:[UIColor grayColor]];
         [timelabel setFrame:CGRectZero];
         //[self addSubview:timelabel];

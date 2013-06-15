@@ -34,12 +34,12 @@
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"usertermagree", @"") style:UIBarButtonItemStyleBordered target:self action:@selector(agree)];
     
-    UIScrollView * scrollview  = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 480 - 44.f)];
-    UILabel * usertermlabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 100)];
+    UIScrollView * scrollview  = [[UIScrollView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UILabel * usertermlabel = [[UILabel alloc] initWithFrame:CGRectMake(5, 5, 320, 100)];
     [usertermlabel setBackgroundColor:[UIColor clearColor]];
     [usertermlabel setText:NSLocalizedString(@"userterm", nil)];
-    [usertermlabel setFont:[UIFont fontWithName:@"Arial" size:15]];
-    [usertermlabel sizeToFitFixedWidth:320];
+    [usertermlabel setFont:[UIFont fontWithName:FONT_NAME size:15]];
+    [usertermlabel sizeToFitFixedWidth:310];
     [scrollview addSubview:usertermlabel];
     [usertermlabel release];
     

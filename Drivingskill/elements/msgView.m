@@ -23,7 +23,7 @@
         if (!msgLabel) {
             msgLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 280, 22)];
             [msgLabel setBackgroundColor:[UIColor clearColor]];
-            [msgLabel setFont:[UIFont fontWithName:@"Arial" size:16]];
+            [msgLabel setFont:[UIFont fontWithName:FONT_NAME size:16]];
             [self addSubview:msgLabel];
             [self setHidden:YES];
         }

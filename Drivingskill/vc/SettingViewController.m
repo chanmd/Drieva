@@ -7,7 +7,6 @@
 //
 
 #import "SettingViewController.h"
-#import "FeedbackViewController.h"
 
 
 @implementation SettingViewController
@@ -102,7 +101,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"settingCell"] autorelease];
         
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        cell.textLabel.font = [UIFont fontWithName:@"Arial" size:16];
+        cell.textLabel.font = [UIFont fontWithName:FONT_NAME size:16];
         cell.textLabel.textColor = [UIColor blackColor];
         
         switch (indexPath.row) {
@@ -184,11 +183,7 @@
 
 - (void)feedbackAction
 {
-    FeedbackViewController *feedbackViewController = [[FeedbackViewController alloc] initWithNibName:@"FeedbackViewController" bundle:nil];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:feedbackViewController];
-    [self presentModalViewController:navigationController animated:YES];
-    [navigationController release];
-    [feedbackViewController release];
+    
 }
 
 - (void)aboutusAction

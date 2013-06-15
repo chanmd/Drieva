@@ -5,6 +5,34 @@
   Created by Man Tung on 12/14/12.
   Copyright (c) 2012 Man Tung. All rights reserved.
 */
+
+
+/*
+ 
+ umeng
+ 
+ */
+
+"Release_to_refresh" = "Release to refresh...";
+"Fill_in_the_Contact" = "填写联系信息";
+"Fill in the Contact" = "Fill in the Contact";
+"a_m" = "a.m.";
+"p_m" = "p.m.";
+"Send" = "Send";
+"Feedback" = "Feedback";
+"Close" = "Close";
+"Your contact information" = "Your contact information";
+"Pull down to refresh" = "Pull down to refresh...";
+"Loading" = "Loading";
+"Last_updated" = "Last updated";
+"Fill in the Contact1" = "Fill in the Contact";
+"Fill in the Contact2" = "Fill in the Contact";
+
+/*
+ 
+ Drieva
+ 
+ */
 "startbutton"="Start";
 "cancelbutton"="Cancel";
 "donebutton"="Done";
@@ -44,10 +72,11 @@
 "restartbuttontitle"="Allow to use my acceleration and Start";
 
 
-"userterm"="THIS Areement is entered into by You and Drieva Team on the date you express Your consent by Click \"Read & Accept\" above \n1.Drieva is designed to evaluate one's driving skill therefore we need the driving data such as acceleration, these data will be recorded and upload to our server for analysis so that we can give the result, and this is the ONLY reason and ONLY way we use these data, we will keep the data security and will NOT use these data for other use. For your side, please obey the law and local regulations, besides driving skill evaluation.\n2. You agree that any use of the Materials by You or any other person, employee or entity authorized by You (collectively \"You\" or \"Your\") will be bound by the terms of this Agreement. Do not use the Materials if You do not accept this Agreement. Your use of the Materials constitutes Your agreement to all terms herein.\n3.If You are agreeing to be bound by this Agreement on behalf of Your employer or other entity, You represent and warrant that You have full legal authority to bind Your employer or such other entity to this Agreement. If You do not have this authority,you will not allow to use the function of Drieva.\n4.You also agree that you will not use these products for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons,Drieva Team do NOT bear any legal responsibility.";
-"usertermtitle"="Terms & Conditions";
+"userterm"="THIS Agreement is entered into by You and Drieva Team on the date you express Your consent by Click \"Accept\" above \n1.Drieva is designed to evaluate one's driving skill therefore we need the driving data such as acceleration, these data will be recorded and upload to our server for analysis so that we can give the result, and this is the ONLY reason and ONLY way we use these data, we will keep the data security and will NOT use these data for other use. For your side, please obey the law and local regulations, besides driving skill evaluation.\n2. You agree that any use of the Materials by You or any other person, employee or entity authorized by You (collectively \"You\" or \"Your\") will be bound by the terms of this Agreement. Do not use the Materials if You do not accept this Agreement. Your use of the Materials constitutes Your agreement to all terms herein.\n3.If You are agreeing to be bound by this Agreement on behalf of Your employer or other entity, You represent and warrant that You have full legal authority to bind Your employer or such other entity to this Agreement. If You do not have this authority,you will not allow to use the function of Drieva.\n4.You also agree that you will not use these products for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons,Drieva Team do NOT bear any legal responsibility.";
 
-"usertermagree"="Read & Accept";
+"usertermtitle"="Policy";
+
+"usertermagree"="Accept";
 "usertermdontagree"="Don't Accept";
 
 "horizontalfailtitle"="Your phone need horizontally";

@@ -19,7 +19,7 @@
 #import "ScoresViewController.h"
 #import "SettingViewController.h"
 #import "UserTermViewController.h"
-#import "FeedbackViewController.h"
+#import "UMFeedbackViewController.h"
 
 #import <SystemConfiguration/SystemConfiguration.h>
 #import <sys/socket.h>
@@ -65,7 +65,7 @@
     
     msgLabel = [[UILabel alloc] init];
     [msgLabel setFrame:CGRectMake(10, 150, 300, 100)];
-    [msgLabel setFont:[UIFont fontWithName:@"Arial" size:35]];
+    [msgLabel setFont:[UIFont fontWithName:FONT_NAME size:35]];
     [msgLabel setTextAlignment:UITextAlignmentCenter];
     [self.view addSubview:msgLabel];
     
@@ -166,12 +166,12 @@
     
     if (unsignedroll > unreachable || unsignedpitch > unreachable) {
         [descriptionLabel setTextColor:[UIColor redColor]];
-        [descriptionLabel setFont:[UIFont fontWithName:@"Arial" size:26]];
+        [descriptionLabel setFont:[UIFont fontWithName:FONT_NAME size:26]];
         [descriptionLabel setText:NSLocalizedString(@"descriptionno", @"")];
         ishorizon = NO;
     } else {
         [descriptionLabel setTextColor:[UIColor greenColor]];
-        [descriptionLabel setFont:[UIFont fontWithName:@"Arial" size:50]];
+        [descriptionLabel setFont:[UIFont fontWithName:FONT_NAME size:26]];
         [descriptionLabel setText:NSLocalizedString(@"descriptionyes", @"")];
         ishorizon = YES;
     }
@@ -230,11 +230,11 @@
 //    [self.navigationController pushViewController:moreviewcontroller animated:YES];
 //    [moreviewcontroller release];
     
-    FeedbackViewController *feedbackViewController = [[FeedbackViewController alloc] initWithNibName:@"FeedbackViewController" bundle:nil];
+    UMFeedbackViewController *feedbackViewController = [[UMFeedbackViewController alloc] initWithNibName:@"UMFeedbackViewController" bundle:nil];
+    feedbackViewController.appkey = UMENG_APPKEY;
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:feedbackViewController];
     [self presentModalViewController:navigationController animated:YES];
-    [navigationController release];
-    [feedbackViewController release];
+    
     
 }
 

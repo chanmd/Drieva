@@ -5,6 +5,32 @@
   Created by Man Tung on 12/14/12.
   Copyright (c) 2012 Man Tung. All rights reserved.
 */
+
+/*
+ 
+ umeng
+ 
+*/
+
+"Release_to_refresh" = "松开即可刷新...";
+"Last_updated" = "最后更新";
+"Fill in the Contact1" = "填写联系信息";
+"Fill in the Contact2" = "请留下您的QQ，邮箱，电话等联系方式";
+"a_m" = "上午";
+"p_m" = "下午";
+"Send" = "发送";
+"Feedback" = "用户反馈";
+"Close" = "关闭";
+"Your contact information" = "您的联系方式";
+"Pull down to refresh" = "下拉可以刷新...";
+"Loading" = "刷新中";
+
+/*
+ 
+ drieva
+ 
+*/
+
 "startbutton"="开始记录";
 "cancelbutton"="取消";
 "donebutton"="完成";
@@ -41,6 +67,7 @@
 
 
 "userterm"="THIS Areement is entered into by You and Drieva Team on the date you express Your consent by Click \"Read & Accept\" above \n1.Drieva is designed to evaluate one's driving skill therefore we need the driving data such as acceleration, these data will be recorded and upload to our server for analysis so that we can give the result, and this is the ONLY reason and ONLY way we use these data, we will keep the data security and will NOT use these data for other use. For your side, please obey the law and local regulations, besides driving skill evaluation.\n2. You agree that any use of the Materials by You or any other person, employee or entity authorized by You (collectively \"You\" or \"Your\") will be bound by the terms of this Agreement. Do not use the Materials if You do not accept this Agreement. Your use of the Materials constitutes Your agreement to all terms herein.\n3.If You are agreeing to be bound by this Agreement on behalf of Your employer or other entity, You represent and warrant that You have full legal authority to bind Your employer or such other entity to this Agreement. If You do not have this authority,you will not allow to use the function of Drieva.\n4.You also agree that you will not use these products for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons,Drieva Team do NOT bear any legal responsibility.";
+
 "usertermtitle"="使用条款";
 
 "usertermagree"="同意";

@@ -38,3 +38,5 @@
 #define Plot_Heigth 100
 
 #define USERTERMALLOW @"usertermallow"
+
+#define FONT_NAME @"Helvetica"
